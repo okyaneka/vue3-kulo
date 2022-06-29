@@ -1,0 +1,24 @@
+// styles/element/index.scss
+/* just override what you need */
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': green,
+    ),
+  ),
+  $header: (
+    'height': 56px,
+    'padding': 0 1rem,
+  ),
+  $main: (
+    'min-height': 100vh,
+  ),
+  $footer: (
+    'height': 56px,
+    'padding': 0 1rem,
+  )
+);
+
+// If you just import on demand, you can ignore the following content.
+// if you want to import all styles:
+@use 'element-plus/theme-chalk/src/index.scss' as *;
