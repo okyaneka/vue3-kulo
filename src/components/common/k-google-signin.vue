@@ -34,6 +34,7 @@ onUnmounted(() => {
     data-theme="outline"
     data-text="continue_with"
     data-shape="rectangular"
+    data-size="medium"
     data-logo_alignment="left"
   ></div>
 </template>
