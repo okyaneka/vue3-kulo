@@ -11,9 +11,9 @@ const appTitle = computed(() => {
     class="h-14 flex items-center bg-green-50 border-b border-green-100 px-4"
   >
     <div class="">
-      <span class="text-lg font-semibold">
+      <router-link to="/" class="text-lg font-semibold">
         {{ appTitle }}
-      </span>
+      </router-link>
     </div>
     <div class="ml-auto rtl:mr-auto"></div>
   </header>

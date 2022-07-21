@@ -18,6 +18,7 @@ onMounted(() => {
 
 onUnmounted(() => {
   delete window.signinCallback;
+  delete window.google;
 });
 </script>
 
@@ -30,6 +31,7 @@ onUnmounted(() => {
   ></div>
   <div
     class="g_id_signin inline-block"
+    data-size="medium"
     data-type="standard"
     data-theme="outline"
     data-text="continue_with"
